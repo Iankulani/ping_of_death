@@ -7,3 +7,14 @@ Normally, ping packets are limited to 65,535 bytes, but the Ping of Death attack
 This can cause buffer overflows, system crashes, reboots, or freezes in vulnerable systems. 
 While modern operating systems have been patched against such attacks, legacy systems and misconfigured networks may still be at risk. 
 The Ping of Death exploits weaknesses in how systems process fragmented network packets, disrupting services and network stability.
+
+## How to clone the repo
+```bash
+git clone https://github.com/Iankulani/ping_of_death.git
+cd ping_of_death
+```
+
+## How to run
+```bash
+python ping_of_death.py
+```
